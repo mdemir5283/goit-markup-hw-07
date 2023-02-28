@@ -37,3 +37,23 @@
 .ourteam__list:not(:last-child) {
   margin-right: 30px;
 }
+.our__skills__svg {
+  margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
+  background-color: var(--primary-backround-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.ourteam__social__svg {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.ourteam__social__svg > li:not(:last-child) {
+  margin-right: 10px;
+}
