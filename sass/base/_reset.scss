@@ -1,0 +1,54 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+header {
+  border-bottom: 1px solid var(--secondary-border-color);
+}
+a:hover {
+  text-decoration: none;
+  color: var(--accent-blue);
+}
+
+body {
+  font-family: "Roboto";
+  font-style: normal;
+}
+h1 {
+  margin-bottom: 30px;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: calc(60 / 44);
+  font-size: 44px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--primary-light-color);
+}
+
+h2 {
+  list-style: none;
+  text-align: center;
+  font-weight: 700;
+  line-height: calc(42 / 36);
+  font-size: 86px;
+}

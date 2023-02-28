@@ -1,0 +1,30 @@
+.footer__main__container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer {
+  background: var(--hero-color);
+  font-weight: 400;
+  color: var(--primary-light-color);
+  line-height: calc(19 / 16);
+  font-size: 14px;
+  font-family: "roboto";
+  display: block;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer__logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  color: var(--accent-blue);
+  text-decoration: none;
+  line-height: calc(31 / 26);
+  margin-bottom: 9px;
+  display: block;
+}
+
+.footer__address__container {
+  margin-right: 70px;
+}
