@@ -97,9 +97,7 @@
   fill: currentColor;
 }
 .chk__bx__svg:hover,
-.chk__bx__svg:focus {
-}
-.subscribe__form__class {
+.chk__bx__svg:focus .subscribe__form__class {
   display: flex;
 }
 .email__input__element {
@@ -127,5 +125,8 @@
   left: 15px;
   fill: var(--primary-text-color);
   cursor: pointer;
-  transition: color var(700--time) var(--time-function);
+  transition: color var(--time) var(--time-function);
+}
+.ourteam-__social__links__svg {
+  fill: currentColor;
 }

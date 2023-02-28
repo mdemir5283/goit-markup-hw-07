@@ -128,3 +128,19 @@
 .checkbox__text {
   display: flex;
 }
+.bottom__footer {
+  font-weight: 400;
+  color: var(--secondary-text-color);
+  line-height: calc(24 / 14);
+  font-size: 14px;
+  font-style: normal;
+  font-family: "Roboto";
+  transition: color var(--time) var(--time-function);
+}
+.subscribe__form__class {
+  display: flex;
+}
+.contact__form {
+  padding-left: 40px;
+  padding-right: 40px;
+}

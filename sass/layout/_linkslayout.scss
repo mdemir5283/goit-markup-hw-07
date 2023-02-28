@@ -51,3 +51,19 @@
   color: var(--primary-light-color);
   background-color: var(--accent-blue);
 }
+.info__navlink {
+  list-style: none;
+  color: var(--secondary-text-color);
+  line-height: calc(16 / 14);
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: flex;
+  align-items: center;
+  transition: color var(--time), var(--time-function);
+}
+.social__links {
+  display: flex;
+}
