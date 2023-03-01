@@ -1,4 +1,4 @@
-.social__inks {
+.social__links {
   display: flex;
 }
 
@@ -13,11 +13,11 @@
   color: var(--primary-light-color);
   transition: color var(--time) var(--time-function),
     background-color var(--time) var(--time-function);
-}
-
-.social__media__links:hover {
-  background-color: var(--accent-blue);
-  color: var(--primary-light-color);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-blue);
+    color: var(--primary-light-color);
+  }
 }
 
 .social__media__svg {

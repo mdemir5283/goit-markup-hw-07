@@ -13,6 +13,7 @@
   opacity: 0;
   pointer-events: none;
 }
+
 .modal__window {
   background-color: var(--primary-light-color);
   width: 528px;
@@ -73,11 +74,7 @@
   color: var(--primary-text-color);
   resize: none;
 }
-.is__hidden {
-  visibility: hidden;
-  opacity: 0;
-  pointer-events: none;
-}
+
 .my__label {
   display: flex;
 }
