@@ -12,13 +12,13 @@
   padding: 10px 20px;
   transition: box-shadow var(--time) var(--time-function),
     background-color var(--time) var(--time-function);
+  &:hover,
+  &:focus {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    background-color: var(--dark-accent-blue);
+  }
 }
 
-.btn__service:hover,
-.btn__service:focus {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  background-color: var(--dark-accent-blue);
-}
 .close__bttn {
   position: fixed;
   height: 30px;
@@ -57,27 +57,25 @@
   font-size: 16px;
   line-height: calc(26 / 16);
   letter-spacing: 0.03em;
-
   height: 38px;
   border-radius: 4px;
-
   border: 0px;
   padding: 6px 27px 6px 27px;
   transition: color var(--time) var(--time-function),
-    background-color var(--time) var(--time-function),
-    box-shadow var(--time) var(--time-function);
-}
-.my__button:hover,
-.my__button:focus {
+  background-color var(--time) var(--time-function),
+  box-shadow var(--time) var(--time-function);
+     &:hover,
+     &:focus {
   background-color: var(--dark-accent-blue);
   color: var(--primary-light-color);
   box-shadow: 0px 3px 1px rgb(0 0 0 / 10%), 0px 1px 2px rgb(0 0 0 / 8%),
     0px 2px 2px rgb(0 0 0 / 12%);
 }
+}
+
 
 .active__button__all {
   color: var(--primary-text-color);
-
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;

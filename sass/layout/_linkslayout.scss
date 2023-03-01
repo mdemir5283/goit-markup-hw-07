@@ -36,7 +36,11 @@
   color: var(--social-icon-color);
   border-radius: 50%;
   transition: color var(--time) var(--time-function),
-    background-color var(--time) var(--time-function);
+  background-color var(--time) var(--time-function);   
+   &:hover {
+  color: var(--primary-light-color);
+  background-color: var(--accent-blue);
+}
 }
 
 .ourteam__social__links__svg {
@@ -47,10 +51,6 @@
   margin-right: 0px;
 }
 
-.ourteam__social__links:hover {
-  color: var(--primary-light-color);
-  background-color: var(--accent-blue);
-}
 .info__navlink {
   list-style: none;
   color: var(--secondary-text-color);

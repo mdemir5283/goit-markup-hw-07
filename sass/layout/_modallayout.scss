@@ -73,6 +73,10 @@
   outline: none;
   color: var(--primary-text-color);
   resize: none;
+  &:hover,
+  &:focus {
+  border: 1px solid var(--accent-blue);
+}
 }
 
 .my__label {
@@ -82,19 +86,18 @@
 .input__name:focus {
   border: 1px solid var(--accent-blue);
 }
-.textarea:hover,
-.textarea:focus {
-  border: 1px solid var(--accent-blue);
-}
+
 .contact__form {
   padding-left: 40px;
   padding-right: 40px;
 }
 .chk__bx__svg {
   fill: currentColor;
+  &:hover,
+  &:focus
 }
-.chk__bx__svg:hover,
-.chk__bx__svg:focus .subscribe__form__class {
+
+.subscribe__form__class {
   display: flex;
 }
 .email__input__element {
@@ -104,7 +107,6 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
-
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   padding: 16px;
